@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.section4{
+    display: flex;
+width: 100%;
+padding: 75px 237.532px 75px 237.484px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px;
+background: #FAFAFA;
+}
