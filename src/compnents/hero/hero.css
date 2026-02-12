@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+width: 100%;
+height: 628.38px;
+padding: 190px 173px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+}
+
+.heroimg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    z-index: -999;
+}
+
+.herotxt{
+    display: flex;
+width: 371px;
+flex-direction: column;
+align-items: flex-start;
+gap: 25px;
+}
+
+.herotxt h1{
+   color: #FFF;
+font-family: Inter;
+font-size: 37.3px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 128.686% */
+}
+
+.herotxt p{
+    color: #FFF;
+font-family: Inter;
+font-size: 23.1px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 155.845% */
+}

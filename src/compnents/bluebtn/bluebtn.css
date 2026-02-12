@@ -1,0 +1,26 @@
+.bluebtn{
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 6px;
+background: #1858A8;
+color: #FFF;
+font-family: Inter;
+font-size: 14.9px;
+font-style: normal;
+font-weight: 600;
+border: 0;
+line-height: 14px; /* 93.96% */
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+.bluebtn:hover{
+    scale: 1.1;
+    background-color: #FFF;
+    color: #1858A8;
+}

@@ -5,4 +5,12 @@ font-size: 14.9px;
 font-style: normal;
 font-weight: 600;
 line-height: 14px; /* 93.96% */ 
+
+}
+.link{
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+.link:hover{
+   scale: 1.1;
 }
