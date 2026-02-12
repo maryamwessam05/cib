@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+width: 279.99px;
+height: 133px;
+padding: 31px 0 48px 20px;
+align-items: flex-start;
+gap: 30px;
+border-radius: 6px;
+border-top: 1px solid rgba(231, 231, 231, 0.60);
+background: #FFF;
+box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
+transition: all 0.3s ease;
+cursor: pointer;
+}
+
+.card h3{
+    color: #1858A8;
+font-family: Inter;
+font-size: 20.8px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 125% */
+}
+
+.card:hover{
+    scale: 1.1;
+box-shadow: 0 1px 15px 2px rgba(0, 97, 174, 0.54);
+
+}

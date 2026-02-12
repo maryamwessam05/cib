@@ -28,10 +28,26 @@ gap: 30px;
 
 .apply{
     display: flex;
-padding: 74px 241px;
+padding: 74px 100px;
 flex-direction: column;
 align-items: center;
 gap: 50px;
 align-self: stretch;
 background: #FAFAFA;
+}
+
+.headers{
+    display: flex;
+width: 876px;
+flex-direction: column;
+align-items: center;
+gap: 14px;
+}
+
+.cards{
+    display: flex;
+align-items: center;
+gap: 51px;
+align-self: stretch;
+justify-content: center;
 }
