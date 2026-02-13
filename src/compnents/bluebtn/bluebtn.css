@@ -17,6 +17,7 @@ border: 0;
 line-height: 14px; /* 93.96% */
 transition: all 0.3s ease;
 cursor: pointer;
+width: fit-content;
 }
 
 .bluebtn:hover{
