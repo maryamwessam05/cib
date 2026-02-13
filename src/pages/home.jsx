@@ -12,6 +12,9 @@ import Title from '../compnents/sectitle/title';
 import logo2 from '../assets/logo2.png'
 import logo3 from '../assets/logo3.png'
 import logo4 from '../assets/logo4.png'
+import money from '../assets/money.png'
+import star from '../assets/star.png'
+import recycle from '../assets/recycle.png'
 
 
 const Home = () => {
@@ -57,6 +60,33 @@ const Home = () => {
             </div>
             <Bluebtn />
         </section>
+
+        <section className='section_7'>
+        <div className='sec6_title'>
+                <Subtitle />
+                <Title />
+            </div>
+            <div className='logos_div'>
+                <div className='sec7_inside'>
+                <img src={money} alt="" className='logos' />
+                <p className='sec7_tex1'>Best Private Bank in Egypt</p>
+                <p className='sec7_tex2'>Global Finance - 2023</p>
+                </div>
+                <div className='sec7_inside'>
+                <img src={star} alt="" className='logos' />
+                <p className='sec7_tex1'>Best Mergers & Acquisitions Deal in MENA</p>
+                <p className='sec7_tex2'>EMEA Finance - 2023</p>
+                </div>
+                <div className='sec7_inside'>
+                <img src={recycle} alt="" className='logos' />
+                <p className='sec7_tex1'>Best Bank in Egypt</p>
+                <p className='sec7_tex2'>Euromoney - 2023</p>
+                </div>
+            </div>
+            <Bluebtn />
+        </section>
+
+
         
         </>
      );
