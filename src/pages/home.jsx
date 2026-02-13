@@ -7,6 +7,12 @@ import Section4 from '../compnents/section4/section4';
 import img3 from '../assets/img3.png'
 import './home.css'
 import Bluebtn from '../compnents/bluebtn/bluebtn';
+import Subtitle from '../compnents/secsubtitle/secsubtitle';
+import Title from '../compnents/sectitle/title';
+import logo2 from '../assets/logo2.png'
+import logo3 from '../assets/logo3.png'
+import logo4 from '../assets/logo4.png'
+
 
 const Home = () => {
     return ( 
@@ -26,6 +32,30 @@ const Home = () => {
                     <Bluebtn />
             </div>
             </div>
+        </section>
+
+        <section className='section6'>
+            <div className='sec6_title'>
+                <Subtitle />
+                <Title />
+            </div>
+            <div className='logos_div'>
+                
+                <div className='logos_inside'>
+                    <img src={logo2} alt="" className='logos' />
+                    <p className='logo_text'>S&P/EGX ESG Index</p>
+                </div>
+                
+                <div className='logos_inside'>
+                    <img src={logo3} alt="" className='logos' />
+                    <p className='logo_text'>Bloomberg Gender Equality Index </p>
+                </div>
+                <div className='logos_inside'>
+                    <img src={logo4} alt="" className='logos' />
+                    <p className='logo_text'>FTSE4Good Index</p>
+                </div>
+            </div>
+            <Bluebtn />
         </section>
         
         </>
