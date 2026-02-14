@@ -15,6 +15,9 @@ import logo4 from '../assets/logo4.png'
 import money from '../assets/money.png'
 import star from '../assets/star.png'
 import recycle from '../assets/recycle.png'
+import globe from '../assets/globe.png'
+import phone from '../assets/phone.png'
+import desk from '../assets/desk.png'
 
 
 const Home = () => {
@@ -81,6 +84,40 @@ const Home = () => {
                 <img src={recycle} alt="" className='logos' />
                 <p className='sec7_tex1'>Best Bank in Egypt</p>
                 <p className='sec7_tex2'>Euromoney - 2023</p>
+                </div>
+            </div>
+            <Bluebtn />
+        </section>
+
+        <section className='section8'>
+            <div className='sec6_title'>
+                <Subtitle />
+                <Title />
+            </div>
+            <div className='logos_div'>
+                
+                <div className='sec8_inside'>
+                    <img src={globe} alt="" className='logos' />
+                    <div className='se8_texts'>
+                        <h3>Online</h3>
+                        <p>Chat with 'Zaki' our digital assistant to guide you through our products and services, or reach out on social media. </p>
+                    </div>
+                </div>
+
+                <div className='sec8_inside'>
+                    <img src={phone} alt="" className='logos' />
+                    <div className='se8_texts'>
+                        <h3>On the phone</h3>
+                        <p>For support, including emergencies such as cards closure or immediate critical feedback. </p>
+                    </div>
+                </div>
+
+                <div className='sec8_inside'>
+                    <img src={desk} alt="" className='logos' />
+                    <div className='se8_texts'>
+                        <h3>In branch</h3>
+                        <p>Our trained team of tellers and relationship managers are here to help you get the service you need. </p>
+                    </div>
                 </div>
             </div>
             <Bluebtn />
