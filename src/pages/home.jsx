@@ -4,7 +4,6 @@ import Hero from '../compnents/hero/hero';
 import Section2 from '../compnents/section2/section2';
 import Section3 from '../compnents/section3/section3';
 import Section4 from '../compnents/section4/section4';
-import img3 from '../assets/img3.png'
 import './home.css'
 import Bluebtn from '../compnents/bluebtn/bluebtn';
 import Subtitle from '../compnents/secsubtitle/secsubtitle';

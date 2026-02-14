@@ -7,7 +7,7 @@ const Newscard = () => {
         <>
             <div className="newscard">
                 <img src={newsimg} alt="" />
-                <div className="cardtxt">
+                <div className="cardtxt2">
                     <p>08/10/2025 - Commercial International Bank (CIB) Has Partnered with CI 
                         Capital to Successfully Closes the Seventh Securitization Bond Issuance for 
                         Halan Consumer Finance, Worth EGP 3.4 Billion</p>
