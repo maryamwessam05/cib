@@ -18,6 +18,7 @@ import recycle from '../assets/recycle.png'
 import globe from '../assets/globe.png'
 import phone from '../assets/phone.png'
 import desk from '../assets/desk.png'
+import Footer from '../compnents/footer/footer';
 
 
 const Home = () => {
@@ -25,6 +26,8 @@ const Home = () => {
         <>
         
         <Navbar />
+        <main>
+
         <Hero />
         <Section2 />
         <Section3 />
@@ -122,6 +125,10 @@ const Home = () => {
             </div>
             <Bluebtn />
         </section>
+
+        </main>
+        
+        <Footer />
 
 
         
